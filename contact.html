@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Elixer Hair Salon">
+  <meta name="author" content="Amber Nicholas">
+
+  <title>Loyal Tea</title>
+
+  <!--font awesome: add icons-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<!--Favicon-->
+<link rel="icon" href="logo.png" type="image/gif" sizes="16x16">
+
+
+ 	<!--bootstrap-->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  	<!--jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!--popper.js-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<!--bootstrap.js-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<!--font awesome-->
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<!--my style sheet-->
+	<link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Navigation: md talks about screen size -->
+<nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+<div class="container-fluid"><!--takes up 100% of screen-->
+	<!--brand is for logo-->
+	<a class="navbar-brand" href="index.html"><img id="navLogo" src="logo.png"></a>
+	<h2>Loyal Tea</h2>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<!--ml-auto explands the nav on larger screens-->
+		<ul class="navbar-nav ml-auto">
+			<!--active class shows what page you are on-->
+			<li class="nav-item active">
+				<a class="nav-link" href="index.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a target="_blank" class="nav-link" href="https://www.munchem.com/LOYALTEA?fbclid=IwAR1wn_LzGptrVSM3D2KSxQTvpIeqCjaHLe4kgMQBviXwa2hr4cl2Sptk8G8">Shop</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="menu.html">Menu</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contact.html">Contact</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://www.facebook.com/loyalteaonthesquare" target="_blank"><i class="fab fa-facebook"></i></a>
+			</li>
+		</ul>
+	</div>
+
+</div>
+	
+</nav>
+
+<!--Spacer (so fixed nav is not on top of the slider)-->
+
+<div class="contact-spacer">
+    &nbsp;
+</div>
+
+<!--Map and hours-->
+
+<div class="container-fluid">
+<div class="row">
+	<div class="col-md-12 col-lg-6 text-center">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13119.953079900717!2d-85.2824103!3d34.7054758!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb558a077fad4db98!2sLoyal%20Tea!5e0!3m2!1sen!2sus!4v1595336237011!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</div>
+	<div class="col-lg-6 text-left">
+		
+		<h5>Our Hours</h5>
+		<hr class="light-100">
+		<p>Monday: 10AM-6PM</p>
+		<p>Tuesday-Wednesday: 10AM-7PM</p>
+		<p>Thursday-Friday: 10AM-5PM</p>
+		
+		<h5>Phone</h5>
+		<hr class="light-100">
+		<a href="tel:706-996-8779">(706) 996-8779</a>
+		<div class="col-12">
+			<button id="directions" class="btn btn-primary btn-lg"><a target="_blank" href="https://www.google.com/maps/dir//34.7054758,-85.2824103/@34.705476,-85.28241,14z?hl=en">Get Directions</a></button>
+		</div>
+	</div>
+</div>
+</div>
+
+<!--- Footer -->
+<footer>
+<div class="container-fluid padding">
+<div class="row text-center">
+	<div class="col-md-4">
+		<img id="footLogo" src="logo.png">
+		<hr class="light">
+		<p><a href="tel:706-996-877">706-996-877</a></p>
+		<p><a id="footFace" target="_blank" href="https://www.facebook.com/loyalteaonthesquare/">Message us on Facebook</a></p>
+		<p><a target="_blank" href="https://www.google.com/maps/dir//34.7054758,-85.2824103/@34.705476,-85.28241,14z?hl=en">108 West Villanow Street, Lafayette, GA 30728</a></p>
+	</div>
+	<div class="col-md-4">
+		<hr class="light">
+		<h5>Our Hours</h5>
+		<hr class="light">
+		<p>Sunday and Monday: Closed</p>
+		<p>Tuesday-Friday: 8AM-7PM</p>
+		<p>Saturday: 9AM-4PM</p>
+	</div>
+	<div class="col-md-4">
+		<hr class="light">
+		<h5>Services</h5>
+		<hr class="light">
+		<p>Loyal Tea</p>
+		<p>Healthy Energy</p>
+		<p>Meal Replacement</p>
+	</div>
+	<div class="col-12">
+		<hr class="light-100">
+		<h5>&copy;<a target="_blank" href="https://anicholas628.github.io/">Amber Nicholas</a></h5>
+	</div>
+</div>	
+</div>
+</footer>

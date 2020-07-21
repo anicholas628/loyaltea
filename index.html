@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Loyal Tea">
+  <meta name="author" content="Amber Nicholas">
+
+  <title>Loyal Tea</title>
+
+  <!--font awesome: add icons-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  	<!--Favicon-->
+<link rel="icon" href="logo.png" type="image/gif" sizes="16x16">
+
+  <!--tutorial links-->
+ 	<!--bootstrap-->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  	<!--jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!--popper.js-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<!--bootstrap.js-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<!--font awesome-->
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<!--my style sheet-->
+	<link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+<!-- Navigation: md talks about screen size -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid"><!--takes up 100% of screen-->
+	<!--brand is for logo-->
+	<a class="navbar-brand" href="index.html"><img id="navLogo" src="logo.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<!--ml-auto explands the nav on larger screens-->
+		<ul class="navbar-nav ml-auto">
+			<!--active class shows what page you are on-->
+			<li class="nav-item active">
+				<a class="nav-link" href="index.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a target="_blank" class="nav-link" href="https://www.munchem.com/LOYALTEA?fbclid=IwAR1wn_LzGptrVSM3D2KSxQTvpIeqCjaHLe4kgMQBviXwa2hr4cl2Sptk8G8">Shop</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="menu.html">Menu</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contact.html">Contact</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://www.facebook.com/loyalteaonthesquare" target="_blank"><i class="fab fa-facebook"></i></a>
+			</li>
+		</ul>
+	</div>
+
+</div>
+	
+</nav>
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slides" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img id="cover-photo" src="cover.png">
+
+		</div>
+		<div class="carousel-item">
+			<img src="beach.png">
+		</div>
+		<div class="carousel-item">
+			<img src="cover.png">
+		</div>
+	</div>
+</div>
+
+<!--- Jumbotron -->
+<div class="container-fluid">
+<div class="row jumbotron">
+	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+		<p class="lead">
+		Welcome to LoyalTea! Come spend some time in our cozy atmosphere and enjoy a sugar free tea or meal replacement shake! We're your number one stop when it comes to HEALTHY energy boosts and meal replacement! We look forward to serving Lafayette, GA!</p>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+		<a href="menu.html"><button class="btn btn-outline-secondary btn-lg">Menu</button></a>
+	</div>
+</div>
+</div>
+
+
+
+<!--- Fixed background -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+			
+		</div>
+	</div>
+</figure>
+
+
+<!--- Meet the team -->
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-12">
+		<h1 class="display-4">Come See Us!</h1>
+		<hr>
+	</div>
+</div>	
+</div>
+
+<!--- Cards -->
+<div class="container-fluid">
+<div class="row padding">
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="shop.jpg">
+			<div class="card-body">
+				<h4 class="card-title">The shop</h4>
+			</div>
+		</div>
+	</div>	
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="twins.jpg">
+			<div class="card-body">
+				<h4 class="card-title">Teas</h4>
+			</div>
+		</div>
+	</div>		
+	<div class="col-md-4">
+		<div class="card">
+			<img class="card-img-top" src="welcome.jpg">
+			<div class="card-body">
+				<h4 class="card-title">Welcome</h4>
+			</div>
+		</div>
+	</div>		
+</div>
+<hr class="my-4">
+</div>
+
+<!--- Connect -->
+<div class="container-fluid padding">
+<div class="row text-center padding">
+	<div class="col-12">
+		<h2>Connect</h2>
+	</div>
+	<div class="col-12 social padding">
+		<a href="https://www.facebook.com/loyalteaonthesquare/"><i class="fab fa-facebook"></i></a>
+		<a href="#"><i class="fab fa-twitter"></i></a>
+		<a href="#"><i class="fab fa-google-plus-g"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+		<a href="#"><i class="fab fa-youtube"></i></a>
+	</div>
+</div>
+</div>
+
+<!--- Footer -->
+<footer>
+<div class="container-fluid padding">
+<div class="row text-center">
+	<div class="col-md-4">
+		<img id="footLogo" src="logo.png">
+		<hr class="light">
+		<p><a href="tel:706-996-877">706-996-877</a></p>
+		<p><a id="footFace" target="_blank" href="https://www.facebook.com/loyalteaonthesquare/">Message us on Facebook</a></p>
+		<p><a target="_blank" href="https://www.google.com/maps/dir//34.7054758,-85.2824103/@34.705476,-85.28241,14z?hl=en">108 West Villanow Street, Lafayette, GA 30728</a></p>
+	</div>
+	<div class="col-md-4">
+		<hr class="light">
+		<h5>Our Hours</h5>
+		<hr class="light">
+		<p>Sunday and Monday: Closed</p>
+		<p>Tuesday-Friday: 8AM-7PM</p>
+		<p>Saturday: 9AM-4PM</p>
+	</div>
+	<div class="col-md-4">
+		<hr class="light">
+		<h5>Services</h5>
+		<hr class="light">
+		<p>Loyal Tea</p>
+		<p>Healthy Energy</p>
+		<p>Meal Replacement</p>
+	</div>
+	<div class="col-12">
+		<hr class="light-100">
+		<h5>&copy; <a href="">Amber Nicholas</a></h5>
+	</div>
+</div>	
+</div>
+</footer>
+
+</body>
+
+</html>
+
+<!--images
+Group inside pic
+https://lh5.googleusercontent.com/p/AF1QipPuVvGtkfM-RwVIbUZ_49hAQtx5X0B9zvzvfYU1=w203-h131-k-no
+
+outside group pic
+url("https://lh5.googleusercontent.com/p/AF1QipMoPMQVdH9PJxg2QhocXDu1J4NlNG-SvQTbA2dP=w203-h132-k-no")
+
+
+-->
